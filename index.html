@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tvt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <section class="caption">
+            <h1>Typing velocity test</h1>
+        </section>
+
+        <section class="bannerItems">
+            <p class="velocity">0 WPM</p>
+            <p class="time"></p>
+        </section>
+
+    </section>
+
+    <section class="main">
+
+        <section class="timer">
+            00:30
+        </section>
+
+        <section class="wordsField">
+            <p class="generatedWords"></p>
+        </section>
+
+        <section class="typedWords">
+            <input type="text" disabled="disabled" class="input" value="Press start button to start typing">
+        </section>
+
+        <section class="buttons">
+            <input type="button" class="start" value="START">
+            <input type="submit" onclick="reset()" class="restart" value="RESET">
+        </section>
+        <input type="button" class="disclaimer">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.banner {
+    display: flex;
+    padding: 0;
+}
+
+.caption, .bannerItems {
+    background-color: rgb(0, 102, 204);
+    width: 50%;
+    margin: 0;
+}
+
+.caption h1 {
+    padding: 0;
+    font-size: 35px;
+    margin: 0;
+    color: white;
+    font-family: Tahoma;
+}
+
+.caption {
+    text-align: center;
+    padding: 10px;
+}
+
+.bannerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.velocity, .time {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+}
+
+.velocity {
+    margin-right: 25px;
+}
+
+.main {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 128, 255, 0.4);
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.input {
+    width: 70%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid gray;
+}
+
+.wordsField {
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid gray;
+}
+
+.start, .restart {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border: none;
+    background-color:rgba(0, 128, 255);
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.start:hover, .restart:hover {
+    opacity: 0.7;
+    transition: opacity 200ms;
+}
+
+.start {
+    margin-right: 20px;
+}
+
+.generatedWords {
+    font-size: 25px;
+    text-align: justify;
+    margin: 35px;
+}
+
+.timer {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.disclaimer {
+    display: none;
+}
+
+
